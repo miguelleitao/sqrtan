@@ -1,3 +1,3 @@
-bin_PROGRAMS = calc
+bin_PROGRAMS = sqrtan
 LDADD = -lm
-calc_SOURCES = calc.c sum.c sub.c
+calc_SOURCES = sqrtan.c
