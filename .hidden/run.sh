@@ -1,13 +1,15 @@
 
-git clone git@github.com:miguelleitao/sqrtan.git
-cd sqrtan
-ls
+#git clone git@github.com:miguelleitao/sqrtan.git
+#cd sqrtan
+#ls
 
+# Makefile
 cp .hidden/Makefile .
 make
 ls
 ./sqrtan 45
 
+# Autotools
 git checkout -b autotools
 ls
 cp .hidden/Makefile.am .
@@ -22,8 +24,7 @@ git add compile install-sh missing depcomp
 git commit -m "autotools files"
 git add Makefile.in configure
 git commit -m "autotools targets"
-git push 
-
+#git push --set-upstream origin autotools
 
 ./configure
 ls
@@ -31,7 +32,6 @@ ls
 make
 ls
 ./sqrtan 45
-
 
 
 # cMake
@@ -67,7 +67,6 @@ make
 ls
 ./sqrtan 45
 
-
 cp .hidden/cmake/CMakeLists3.txt CMakeLists.txt
 cp .hidden/cmake/sqrtan3.c sqrtan.c
 cat CMakeLists.txt
@@ -88,9 +87,10 @@ make
 ls
 ./sqrtan 45
 
-git add CMakeLists.txt sqrtan.c
+git add CMakeLists.txt sqrtan.c config.h.in
 git commit -m "cmake file"
-git push
+#git push --set-upstream origin cmake
+
 
 
 
