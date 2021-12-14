@@ -1,3 +1,3 @@
 bin_PROGRAMS = sqrtan
 LDADD = -lm
-sqrtan_SOURCES = sqrtan.c
+sqrtan_SOURCES = sqrtan.c 

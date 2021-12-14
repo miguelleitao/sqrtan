@@ -4,17 +4,9 @@
 #include <stdlib.h>
 #include <math.h>
 
-#include "config.h"
-
 double myTan(double v) {
   double v_rad = v*M_PI/180.;
-  #ifdef HAVE_TAN
-    return tan(v_rad);
-  #else
-    double s, c;
-    sincos(v_rad, &s, &c);
-    return s/c;
-  #endif
+  return tan(v_rad);
 }
 
 

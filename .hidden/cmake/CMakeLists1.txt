@@ -1,6 +1,0 @@
-
-cmake_minimum_required (VERSION 2.6)
-project (sqrtan)
-add_executable(sqrtan sqrtan.c)
-target_link_libraries(sqrtan m)
-

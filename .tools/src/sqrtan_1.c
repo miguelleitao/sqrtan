@@ -5,9 +5,10 @@
 #include <math.h>
 
 double myTan(double v) {
-    double v_rad = v*M_PI/180.;
-    return tan(v_rad);
+  double v_rad = v*M_PI/180.;
+  return tan(v_rad);
 }
+
 
 int main (int argc, char *argv[])
 {

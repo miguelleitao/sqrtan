@@ -1,0 +1,14 @@
+
+# Makefile for sqrtan
+#
+
+default: sqrtan
+
+sqrtan: sqrtan.o
+	cc -o $@ $^ -lm
+
+
+sqrtan.o: sqrtan.c
+	cc -c -Wall $<
+
+

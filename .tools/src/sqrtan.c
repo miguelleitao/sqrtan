@@ -6,13 +6,21 @@
 
 #include "config.h"
 
+
 double myTan(double v) {
-	double v_rad = v*M_PI/180.;
-#ifdef HAVE_TAN
-	return tan(v_rad);
-#else
-	return sin(v_rad)/cos(v_rad);
-#endif
+  double v_rad = v*M_PI/180.;
+  #ifdef HAVE_TAN
+    return tan(v_rad);
+  #else
+    double s, c;
+    #ifdef HAVE_SINCOS
+      sincos(v_rad, &s, &c);
+    #else
+      s = sin(v_rad);
+      c = cos(v_rad);
+    #endif
+    return s/c;
+  #endif
 }
 
 

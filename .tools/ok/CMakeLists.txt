@@ -8,6 +8,7 @@ include (CheckFunctionExists)
 add_executable(sqrtan sqrtan.c)
 
 CHECK_FUNCTION_EXISTS(sqrt HAVE_SQRT)
+
 if(NOT HAVE_SQRT)
   list(APPEND CMAKE_REQUIRED_LIBRARIES m)
   CHECK_FUNCTION_EXISTS(sqrt SQRT_FOUND)

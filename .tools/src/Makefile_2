@@ -1,0 +1,19 @@
+
+# Makefile for sqrtan
+#
+
+PROG=sqrtan
+OBJS=${PROG}.o
+LIBS=-lm
+
+default: ${PROG}
+
+${PROG}: ${OBJS}
+	cc -o $@ $^ ${LIBS}
+
+%.o:%.c
+	cc -c -Wall $<
+
+clean:
+	rm -rf ${PROG} ${OBJS}
+
