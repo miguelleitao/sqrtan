@@ -5,6 +5,7 @@ This repository is aimed to be used as input for a tutorial demo on building too
 
 Full demo:
 
+...
   make src0
   cd workdir
   cat sqrt.c
@@ -41,5 +42,5 @@ Full demo:
   make
   ./sqrtan 60
   cd ..
-
+...
 
