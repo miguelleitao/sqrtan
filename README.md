@@ -13,7 +13,7 @@ make
 ./sqrt 60
 cd ..
 ```
-
+```
   make makefile
   cd workdir
   cat sqrt.c
@@ -21,7 +21,8 @@ cd ..
   make
   ./sqrt 60
   cd ..
-
+```
+```
   make autotools
   cd workdir
   cat config.ca
@@ -34,7 +35,8 @@ cd ..
   make
   ./sqrtan 60
   cd ..
-
+```
+```
   make cmake
   cd workdir
   cat CMakeLists.txt
@@ -43,5 +45,5 @@ cd ..
   make
   ./sqrtan 60
   cd ..
-...
+```
 
