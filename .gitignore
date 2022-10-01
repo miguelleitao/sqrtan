@@ -1,0 +1,4 @@
+workdir/*
+sqrtan
+*.o
+configure
