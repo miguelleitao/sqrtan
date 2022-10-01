@@ -1,8 +1,0 @@
-// config header for sqrtan
-#cmakedefine HAVE_SQRT
-#cmakedefine HAVE_TAN
-#cmakedefine HAVE_SINCOS
-#cmakedefine HAVE_SIN
-#cmakedefine HAVE_COS
-#cmakedefine HAVE_INEXISTANT
-
