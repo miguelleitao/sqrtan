@@ -6,12 +6,13 @@ This repository is aimed to be used as input for a tutorial demo on building too
 Full demo:
 
 ...
-  make src0
-  cd workdir
-  cat sqrt.c
-  make
-  ./sqrt 60
-  cd ..
+make src0
+cd workdir
+cat sqrt.c
+make
+./sqrt 60
+cd ..
+...
 
   make makefile
   cd workdir
