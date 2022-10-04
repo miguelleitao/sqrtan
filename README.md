@@ -6,6 +6,10 @@ This repository is aimed to be used as input for a tutorial demo on building too
 ## Full demo:
 
 ```
+  git clone git@github.com:miguelleitao/sqrtan.git
+  cd sqrtan
+```
+```
   make src0
   cd workdir
   cat sqrt.c
