@@ -5,10 +5,12 @@ This repository is aimed to be used as input for a tutorial demo on building too
 
 ## Full demo:
 
+#### Basic Makefile
 ```
   git clone git@github.com:miguelleitao/sqrtan.git
   cd sqrtan
 ```
+#### Using config.h
 ```
   make src0
   cd workdir
@@ -17,6 +19,7 @@ This repository is aimed to be used as input for a tutorial demo on building too
   ./sqrt 60
   cd ..
 ```
+#### Autotools
 ```
   make makefile
   cd workdir
@@ -26,6 +29,7 @@ This repository is aimed to be used as input for a tutorial demo on building too
   ./sqrt 60
   cd ..
 ```
+#### CMake
 ```
   make autotools
   cd workdir
