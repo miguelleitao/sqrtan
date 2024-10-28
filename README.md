@@ -19,9 +19,9 @@ This repository is aimed to be used as input for a tutorial demo on building too
   ./sqrt 60
   cd ..
 ```
-#### config.h
+#### Makefile & config.h
 ```
-  make makefile
+  make config.h
   cd workdir
   cat sqrt.c
   cat config.h
