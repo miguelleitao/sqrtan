@@ -35,6 +35,7 @@ cmake: clear ${WORKDIR} src1
 push: clear
 	git add .
 	git commit -m "update"
+	echo "Only registered project colaborators can push updates..."
 	git push
 
 clear:

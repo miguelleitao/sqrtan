@@ -33,7 +33,7 @@ This repository is aimed to be used as input for a tutorial demo on building too
 ```
   make autotools
   cd workdir
-  cat config.ca
+  cat configure.ac
   cat Makefile.am
   aclocal
   autoconf
@@ -42,6 +42,8 @@ This repository is aimed to be used as input for a tutorial demo on building too
   ./configure
   make
   ./sqrtan 60
+  make dist
+  make install
   cd ..
 ```
 #### CMake
