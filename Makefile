@@ -39,4 +39,4 @@ push: clear
 	git push
 
 clear:
-	rm -rf ${WORKDIR}/*
+	rm -rf ${WORKDIR}
