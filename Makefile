@@ -14,11 +14,11 @@ ${WORKDIR}:
 
 .PRECIOUS: ${WORKDIR}/sqrtan.c
 
-src0:
+src0:	${WORKDIR}
 	cp -p src/sqrtan_0.c ${WORKDIR}/sqrtan.c
 	cp -p src/Makefile_1 ${WORKDIR}/Makefile
 
-src1:
+src1:	${WORKDIR}
 	cp -p src/sqrtan_3.c ${WORKDIR}/sqrtan.c
 
 
