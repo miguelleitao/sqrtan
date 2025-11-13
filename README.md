@@ -47,9 +47,20 @@ This repository is aimed to be used as input for a tutorial demo on building too
   make
   ./sqrtan 60
   make dist
+  #make install
+  cd ..
+```
+
+```
+  cp workdir/*.tgz .
+  tar xzf *.tgz
+  cd sqrt-*
+  ./configure
+  make
   make install
   cd ..
 ```
+
 #### CMake
 ```
   make cmake
