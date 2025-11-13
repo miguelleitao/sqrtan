@@ -52,8 +52,8 @@ This repository is aimed to be used as input for a tutorial demo on building too
 ```
 
 ```
-  cp workdir/*.tgz .
-  tar xzf *.tgz
+  cp workdir/sqrt-*.tar.gz .
+  tar xzf sqrt-*.tar.gz
   cd sqrt-*
   ./configure
   make
