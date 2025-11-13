@@ -1,12 +1,10 @@
 // Computes the square root of the tangent of an angle in degrees.
 
-#define GNU_SOURCE
+#include "config.h"
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-
-#include "config.h"
 
 double myTan(double v) {
   double v_rad = v*M_PI/180.;

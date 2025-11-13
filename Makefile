@@ -27,6 +27,7 @@ config.h: clear src1
 
 autotools: clear src1
 	cp -p autotools/* ${WORKDIR}
+	mv ${WORKDIR}/configure.ac ${WORKDIR}/.configure.ac.ok
 
 cmake: clear src1
 	cp -p cmake/* ${WORKDIR}

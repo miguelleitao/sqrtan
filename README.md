@@ -27,14 +27,18 @@ This repository is aimed to be used as input for a tutorial demo on building too
   cat config.h
   make
   ./sqrt 60
+  nm -u sqrt
   cd ..
 ```
 #### Autotools
 ```
   make autotools
   cd workdir
-  cat configure.ac
   cat Makefile.am
+  autoscan
+  cat configure.scan
+  cp configure.scan configure.ac
+  vi configure.ac
   aclocal
   autoconf
   autoheader
