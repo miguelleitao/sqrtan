@@ -38,6 +38,7 @@ This repository is aimed to be used as input for a tutorial demo on building too
   autoscan
   cat configure.scan
   cp configure.scan configure.ac
+  [cp configure.ac.ok configure.ac]
   vi configure.ac
   aclocal
   autoconf
